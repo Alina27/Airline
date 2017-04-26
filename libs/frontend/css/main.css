@@ -1,0 +1,1986 @@
+
+body {
+	background-color: #FFAAAA;
+}
+
+.mainPanel {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #FFAAAA;
+}
+.main2Panel {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: bisque;
+}
+
+#topPanel{
+	position: relative;
+	top:0;
+	width: 100%;
+	height: 20%;
+    background-color: #801515;
+	left: 0;	
+} 
+
+#planeLogo{
+	position: relative;
+	max-height: 100%;
+	max-width: 100%;
+	left: 82%;
+}
+
+#welcomeMess{
+	text-align: center;
+    font-family: "Arial Black",sans-serif;
+	font-size: 40px;
+	color: darkblue;
+} 
+
+#optionMess{
+	text-align: center;
+	font-family: "Verdana", "Geneva", sans-serif;
+	color: darkblue;
+}
+
+#arrow1{
+	position: absolute;
+	max-height: 7%;
+	left: 35%;
+}
+
+#flightList{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+}
+
+#arrow2{
+	position: absolute;
+	max-height: 7%;
+	left: 35%;
+}
+
+#flightStatus{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+}
+
+#arrow3{
+	position: absolute;
+	max-height: 7%;
+	left: 35%;
+}
+
+#flightBookingAdult{
+	//position: absolute;
+	//left: 40%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+}
+
+#arrow4{
+	position: absolute;
+	max-height: 7%;
+	left: 35%;
+}
+
+#flightBookingAccMin{
+	position: relative;
+	
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+}
+
+#LogIn{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+}
+
+#arrow5{
+	position: absolute;
+	max-height: 7%;
+	left: 35%;
+}
+
+#listMainPanel{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #FFAAAA;
+}
+
+#ffLabel{
+	display: block;
+    text-align: center;
+    font-family: "Verdana", "Geneva", sans-serif;
+	font-size: 20px;
+	color: darkblue;
+}
+
+#optionPanel{
+	position: relative;
+	width: 60%;
+	height: 50%;
+	//background-color: darkseagreen;
+	background-color: #D46A6A;
+	left: 20%;
+	top: 12%;
+}
+
+#departure{
+	position: absolute;
+	width: 40%;
+    height: 18%;
+	top: 15%;
+	left:4%;
+	border: 2px solid #dadada;
+    border-radius: 3px;
+}
+
+#departure:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#flyFromLabel{
+	position: absolute;
+	left: 4%;
+	top: 7%;
+	font-family: cursive;
+}
+
+#arriving{
+	position: absolute;
+	width: 40%;
+    height: 18%;
+	top: 15%;
+	//left:65%;
+	right: 4%;
+	border: 2px solid #dadada;
+    border-radius: 3px;
+}
+
+#arriving:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#flyToLabel{
+	position: absolute;
+	left: 56%;
+	top: 7%;
+	font-family: cursive;
+}
+
+#datePanel{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	background-color: #D46A6A;
+	//left: 25%;
+	top: 55%;
+}
+
+#outboundLabel{
+	position: relative;
+	left: 4%;
+	top: -58%;
+	font-family: cursive;
+	//left: 10%;
+	//top: 4%;
+}
+
+#dateField{
+	position: absolute;
+	left: 4%;
+	top: -23%;
+	width: 40%;
+	height: 40%;
+	border: 2px solid #dadada;
+    border-radius: 3px;
+}
+
+#dateField:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#flSearchLabel{
+	position: relative;
+	width: 20%;
+	height: 15%;
+	top: -14%;
+	background-color: #D46A6A;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Verdana", "Geneva", sans-serif;
+	color: white;
+}
+
+#sepDiv1{
+	position: relative;
+	width: 20%;
+	height: 1%;
+	top: -15%;
+	background-color: red;
+}
+
+#sepDiv2_1{
+	position: absolute;
+	width: 40%;
+	height: 1%;
+	background-color: red;
+
+	top: 35%;
+	left:4%;
+}
+
+#sepDiv2_2{
+	position: absolute;
+	width: 40%;
+	height: 1%;
+	background-color: red;
+
+	top: 35%;
+	right:4%;
+}
+
+#sepDiv3{
+  position: absolute;
+  left: 4%;
+  top: 89%;
+  width: 27%;
+  height: 1%;
+  background-color: black;
+}
+
+#sepDiv4{
+  position: absolute;
+  left: 4%;
+  top: 61%;
+  width: 40%;
+  height: 1%;
+  background-color: red;
+}
+
+#search{
+	position: absolute;
+	left: 25%;
+	top: 54%;
+	width: 45%;
+	height: 9%;
+}
+
+#myBtn{
+	position: absolute;
+	background-color:  #6E1319;
+	font-size: 25px;
+	left: 4%;
+	top: 70%;
+	width: 27%;
+	height: 18%;
+    font-family: "Verdana", "Geneva", sans-serif;
+	color: white;
+	border-radius: 1px;
+	border: 1px solid #550000;
+}
+
+#statusLabel{
+	position: relative;
+	left: 10%;
+}
+
+hr{
+	border-color: darkblue;
+	width: 80%;
+}
+
+#optionStatusPanel{
+	position: relative;
+	width: 80%;
+	height: 15%;
+	background-color: pink;
+	left: 10%;
+}
+
+#direction{
+	position: relative;
+	top: 35%;
+	right: 3%;
+	width: 15%;
+	height: 50%;
+}
+
+#directionLabel{
+	position: relative;
+	left: 7%;
+	font-family: sans-serif;
+}
+
+#from_Status{
+	position: relative;
+	left: 10%;
+	font-family: sans-serif;
+}
+
+#to_Status{
+	position: relative;
+	left: 12%;
+	font-family: sans-serif;
+}
+
+#perisdLabel{
+	position: relative;
+	left: 21%;
+	font-family: sans-serif;
+}
+
+#departureStatus{
+	position: relative;
+	top: 35%;
+	width: 15%;
+	height: 50%;
+}
+
+#arrivingStatus{
+	position: relative;
+	top: 35%;
+	width: 15%;
+	left: 3%;
+	height: 50%;
+}
+
+#dateSelection{
+	position: relative;
+	top: 35%;
+	width: 15%;
+	left: 12%;
+	height: 50%;
+}
+
+#flightStatusPanel{
+	position: relative;
+	width: 80%;
+	height: 10%;
+	background-color: lightgray;
+	left: 10%;
+}
+
+
+#status{
+	position: relative;
+	left: 70%;
+}
+
+#statusState{
+	position: relative;
+	left: 70%;
+	background-color: darkgreen;
+	top: 23%;
+	width: 7%;
+	height: 40%;
+	text-align: center;
+	font-size: 16px;
+}
+
+#dep_Arr{
+	position: relative;
+	left: 50%;
+}
+
+#from_To{
+	position: relative;
+	left: 20%;
+}
+
+#fl{
+	position: relative;
+	left: 1%;
+}
+
+#statusData{
+	position: relative;
+	width: 80%;
+	height: 10%;
+	top:1%;
+	background-color: papayawhip;
+	left: 10%;
+	border-top-style: inset;
+    border-top-color: deeppink;
+}
+
+#login_form{
+	border: 3px solid #FFAAAA;
+}
+
+#userInput{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#passInput{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+#loginButton{
+	//background-color: #4CAF50;
+	background-color:#6E1319;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn{
+	width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 80%;
+    left: 5%;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+	background-color:#f1f1f1;
+    padding: 16px;
+    position: absolute;
+    top: 47%;
+    //left: 7%;
+}
+
+#logCont{
+	background-color:#f1f1f1;
+    padding: 16px;
+    position: absolute;
+    top: 47%;
+    left: 7%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+#agentInfo{
+	position: relative;
+	width: 20%;
+	height: 45%;
+	top:3%;
+	left: 1%;
+	background-color: #D46A6A;
+}
+
+#agentName{
+	text-align: center;
+	//font-family:'Ek Mukta'; 
+	//color:#919191;
+	//background:#3e3436;
+
+}
+
+#aName{
+	font-family:'Ek Mukta'; 
+	font-size: 20px;
+	color: black;
+}
+
+
+#agN{
+	position: absolute;
+	left: 3%;
+}
+
+#tel{
+	position: absolute;
+	left: 3%;
+	top: 50%;
+}
+
+#actPh{
+	font-family:'Ek Mukta'; 
+	font-size: 20px;
+	color: black;
+}
+
+#e_mail{
+	position: absolute;
+	left: 3%;
+	top: 65%;
+}
+
+#actEmail{
+	font-family:'Ek Mukta'; 
+	font-size: 20px;
+	color: black;
+}
+
+#skype{
+	position: absolute;
+	left: 3%;
+	top: 80%;
+}
+
+#actSkype{
+	font-family:'Ek Mukta'; 
+	font-size: 20px;
+	color: black;
+}
+
+#actNum{
+	position: absolute;
+	left: 40%;
+	top: 21%;
+	font-family:'Ek Mukta'; 
+	font-size: 20px;
+	color: black;
+}
+
+#contInfMain{
+	position: absolute;
+	top: 35%;
+	left: 27%;
+	text-align: center;
+}
+
+#welcomeMessAP{
+	position: relative;
+	text-align: center;
+    font-family: "Arial Black",sans-serif;
+	font-size: 40px;
+	color: darkblue;
+	bottom: 46%;
+	left: 10%;
+}
+
+#optionMessAP{
+	position: relative;
+	text-align: center;
+	font-family: "Verdana", "Geneva", sans-serif;
+	color: darkblue;
+	bottom: 46%;
+	left: 10%;
+}
+
+#arrow1AP{
+	position: absolute;
+	max-height: 7%;
+	top: 40%;
+	left: 40%;
+}
+
+#flightListAP{
+	position: relative;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+	left: 1%;
+	bottom: 270px;
+}
+
+#arrow2AP{
+	position: absolute;
+	max-height: 7%;
+	top: 50%;
+	left: 40%;
+}
+
+#flightStatusAP{
+	position: relative;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+	left: 2%;
+	bottom: 245px;
+}
+
+#arrow3AP{
+	position: absolute;
+	max-height: 7%;
+	top: 60%;
+	left: 40%;
+}
+
+#flightBookingAP{
+	position: relative;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: firebrick;
+	left: 2%;
+	bottom: 230px;
+}
+
+/*
+#searchAndBook{
+	position: absolute;
+	left: 25%;
+	top: 54%;
+	width: 15%;
+	height: 9%;
+	padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+} */
+
+#searchAndBook{
+	position: absolute;
+	background-color:  #6E1319;
+	font-size: 21px;
+	left: 4%;
+	top: 70%;
+	width: 27%;
+	height: 18%;
+    font-family: "Verdana", "Geneva", sans-serif;
+	color: white;
+	border-radius: 1px;
+	border: 1px solid #550000;
+}
+
+#tranSelection{
+	position: absolute;
+	border: 3px solid #f1f1f1;
+	background-color: navajowhite;
+	//width: 28%;
+	width: 21%;
+	height: 24%;
+	//left: 78%;
+	//top: 0;
+}
+
+#myTranSelection{
+	position: relative;
+	height: 20%;
+	background-color: dimgray;
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+}
+
+#outboundSelect{
+	position: relative;
+	height: 10%;
+	background-color: navajowhite;
+	font-size: 20px;
+	font-family: serif;
+	text-align: left;
+}
+
+#sec{
+	position: relative;
+	bottom: 5%;
+	width: 100%;
+	color: darkgray;
+}
+
+#destSelect{
+	position: relative;
+	font-size: 20px;
+	font-family: serif;
+	text-align: left;
+	bottom: 12%;
+}
+
+#timeSelect{
+	position: relative;
+	font-size: 20px;
+	font-family: serif;
+	text-align: left;
+	bottom: 6%;
+}
+
+#priceSelect{
+	position: relative;
+	height: 30%;
+	background-color: dimgray;
+	font-family: serif;
+}
+
+#totalPrice{
+	position: relative;
+    left: 0%;
+	font-size: 20px;
+	font-family: serif;
+}
+
+#price{
+	position: relative;
+	left: 35%;
+	font-size: 20px;
+	font-family: serif;
+}
+
+#dolSign{
+	position: relative;
+	left: 37%;
+	font-size: 20px;
+	font-family: serif;
+}
+
+#flightBookingForm{
+	text-align: center;
+} 
+
+
+
+
+
+#passForm{
+	position: absolute;
+	border: 3px solid #f1f1f1;
+	background-color: navajowhite;
+	width: 75%;
+	height: 180%;
+	left: 2%;
+}
+
+#passLabel{
+	position: relative;
+	height: 5%;
+	background-color: dimgray;
+	font-size: 25px;
+	font-family: serif;
+}
+
+#passengers{
+	position: relative;
+	left: 2%;
+}
+
+#pasInf{
+	position: relative;
+	left: 2%;
+}
+
+#passNameWarn{
+	position: relative;
+	height: 7%;
+	background-color: navajowhite;
+	font-size: 25px;
+	font-family: serif;
+	font-size: 70%;
+}
+
+#third{
+	position: relative;
+	bottom: 6%;
+	width: 100%;
+	color: darkgray;
+}
+
+#firstName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 3%;
+	top: 12%;
+}
+
+#firstNameLabel{
+	position: absolute;
+	//bottom: 87%;
+	top: 10%;
+	font-size: 40%;
+	left: 3%;
+}
+
+#secondName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 30%;
+	top: 12%;
+}
+
+#secondNameLabel{
+	position: absolute;
+	top: 10%;
+	font-size: 40%;
+	left: 30%;
+	bottom: 87%;
+}
+
+#lastName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 57%;
+	top: 12%;
+}
+
+#lastNameLabel{
+	position: absolute;
+	top: 10%;
+	font-size: 40%;
+	left: 57%;
+}
+
+#gender{
+	position: absolute;
+	left: 84%;
+	top: 12%;
+	width: 13%;
+	height: 3%;
+	font-size: 50%;
+}
+
+#genderLabel{
+	position: absolute;
+	right: 18%;
+	left: 84%;
+	top: 10%;
+	font-size: 40%;
+}
+
+#birthDate{
+	position: absolute;
+	top: 18%;
+	font-size: 40%;
+	left: 3%;
+}
+
+#day{
+	position: absolute;
+	width: 8%;
+	height: 4%;
+	left: 3%;
+	top: 20%;
+	font-size: 60%;
+}
+
+#month{
+	position: absolute;
+	width: 14%;
+	height: 4%;
+	left: 12%;
+	top: 20%;
+	font-size: 60%;
+}
+
+#year{
+	position: absolute;
+	width: 7%;
+	height: 4%;
+	left: 27%;
+	top: 20%;
+	font-size: 60%;
+}
+
+#eM{
+	position: absolute;
+	width: 30%;
+	height: 3%;
+	left: 3%;
+	top: 28%;
+	font-size: 60%;
+}
+
+#emaillLabel{
+	position: absolute;
+	left: 3%;
+	top: 26%;
+	font-size: 40%;
+}
+
+#pN{
+	position: absolute;
+	width: 30%;
+	height: 3%;
+	left: 3%;
+	top: 35%;
+	font-size: 60%;
+}
+
+#pNLabel{
+	position: absolute;
+	left: 3%;
+	top: 33%;
+	font-size: 40%;
+}
+
+#lugg{
+	position: absolute;
+	width: 13%;
+	height: 4%;
+	left: 3%;
+	top: 44%;
+	font-size: 60%;
+}
+
+#luggLabel{
+	position: absolute;
+	left: 3%;
+	top: 42%;
+	font-size: 40%;
+} 
+
+#fourth{
+	position: absolute;
+	//width: 74.5%;
+	width: 100%;
+	//left: 3.2%;
+	top: 48%;
+	color: darkgray;
+}
+
+#withInfantLabrl{
+	position: absolute;
+	left: 3%;
+	top: 51%;
+	font-size: 40%;
+}
+
+#trueFalse{
+	position: absolute;
+	left: 3%;
+	top: 53%;
+	font-size: 40%;
+}
+
+#infFirstNameLabel{
+	position: absolute;
+	left: 3%;
+	top: 58%;
+	font-size: 40%;
+}
+
+#infFirstName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 3%;
+	top: 60%;
+	font-size: 60%;
+}
+
+#infSecondNameLabel{
+	position: absolute;
+	left: 30%;
+	top: 58%;
+	font-size: 40%;
+}
+
+#infSecondName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 30%;
+	top: 60%;
+	font-size: 60%;
+}
+
+#intLastNameLabel{
+	position: absolute;
+	left: 57%;
+	top: 58%;
+	font-size: 40%;
+}
+
+#infLastName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 57%;
+	top: 60%;
+	font-size: 60%;
+}
+
+#infGenderLabel{
+	position: absolute;
+	left: 68%;
+	top: 58%;
+	font-size: 40%;
+}
+
+#infGender{
+	position: absolute;
+	left: 85%;
+	top: 60%;
+	width: 13%;
+	height: 3%;
+	font-size: 50%;
+}
+
+#infbirthDate{
+	position: absolute;
+	top: 66%;
+	font-size: 40%;
+	left: 3%;
+}
+
+#infDay{
+	position: absolute;
+	width: 8%;
+	height: 4%;
+	left: 3%;
+	top: 68%;
+	font-size: 60%;
+}
+
+#infMonth{
+	position: absolute;
+	width: 11%;
+	height: 4%;
+	left: 12%;
+	top: 68%;
+	font-size: 60%;
+}
+
+#infYear{
+	position: absolute;
+	width: 7%;
+	height: 4%;
+	left: 23.5%;
+	top: 68%;
+	font-size: 60%;
+}
+
+#fifth{
+	position: absolute;
+	//width: 74.5%;
+	width: 100%;
+	//left: 3.2%;
+	top: 71%;
+	color: darkgray;
+}
+
+#withChildLabrl{
+	position: absolute;
+	left: 3%;
+	top: 74%;
+	font-size: 40%;
+}
+
+#childTrueFalse{
+	position: absolute;
+	left: 3%;
+	top: 76%;
+	font-size: 40%;
+}
+
+#childFirstNameLabel{
+	position: absolute;
+	left: 3%;
+	top: 81%;
+	font-size: 40%;
+}
+
+#childFName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 3%;
+	top: 83%;
+	font-size: 60%;
+}
+
+#childSecondNameLabel{
+	position: absolute;
+	left: 30%;
+	top: 81%;
+	font-size: 40%;
+}
+
+#childSecondName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 30%;
+	top: 83%;
+	font-size: 60%;
+}
+
+#childLastNameLabel{
+	position: absolute;
+	left: 57%;
+	top: 81%;
+	font-size: 40%;
+}
+
+#childLastName{
+	position: absolute;
+	width: 25%;
+	height: 3%;
+	left: 57%;
+	top: 83%;
+	font-size: 60%;
+}
+
+#childGenderLabel{
+	position: absolute;
+	left: 85%;
+	top: 81%;
+	//bottom: 87%;
+	font-size: 40%;
+}
+
+#childGender{
+	position: absolute;
+	left: 85%;
+	top: 83%;
+	width: 13%;
+	height: 3%;
+	font-size: 50%;
+}
+
+#childbirthDate{
+	position: absolute;
+	left: 3%;
+	top: 88%;
+	font-size: 40%;
+}
+
+#childDay{
+	position: absolute;
+	width: 8%;
+	height: 4%;
+	left: 3%;
+	top: 90%;
+	font-size: 60%;
+}
+
+#childMonth{
+	position: absolute;
+	width: 11%;
+	height: 4%;
+	left: 12%;
+	top: 90%;
+	font-size: 60%;
+}
+
+#childYear{
+	position: absolute;
+	width: 7%;
+	height: 4%;
+	left: 23.5%;
+	top: 90%;
+	font-size: 60%;
+}
+
+#childluggLabel{
+	position: absolute;
+	left: 35%;
+	top: 88%;
+	font-size: 40%;
+}
+
+#childLugg{
+	position: absolute;
+	width: 15%;
+	height: 4%;
+	left: 35%;
+	top: 90%;
+	font-size: 60%;
+}
+
+#bookTicket{
+	position: absolute;
+	width: 22%;
+	height: 3%;
+	left: 3%;
+	top: 96%;
+}
+
+#addInfo{
+	position: absolute;
+	height: 5%;
+	width: 100%;
+	background-color: dimgray;
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+	top:44.5%;
+	left: 0%;
+}
+
+#outPers{
+	position: absolute;
+	top: 100%;
+	left: 30%;
+}
+
+#outfirstName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 3%;
+	top: 57%;
+}
+
+#outFirstNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 3%;
+	top: 55%;
+}
+
+#outSecondName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 26%;
+	top: 57%;
+}
+
+#outsecondNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 26%;
+	top: 55%;
+}
+
+#outLastName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 48%;
+	top: 57%;
+}
+
+#outLastNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 48%;
+	top: 55%;
+}
+
+#outpN{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 3%;
+	top: 65%;
+	font-size: 60%;
+}
+
+#outpNLabel{
+	position: absolute;
+	left: 3%;
+	top: 63%;
+	font-size: 40%;
+}
+
+#sixth{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 69%;
+	color: darkgray;
+}
+
+#addInfoArr{
+	position: absolute;
+	height: 5%;
+	width: 74.5%;
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+	top:67%;
+	left: 30%;
+}
+
+#arrPers{
+	position: absolute;
+	top: 100%;
+	//left: 30%;
+}
+
+
+
+#arrfirstName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 26%;
+	top: 79%;
+}
+
+#arrFirstNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 3%;
+	top: 77%;
+}
+
+#arrSecondName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 3%;
+	top: 79%;
+}
+
+#arrsecondNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 26%;
+	top: 77%;
+}
+
+#arrLastName{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 49%;
+	top: 79%;
+}
+
+#arrLastNameLabel{
+	position: absolute;
+	font-size: 40%;
+	left: 49%;
+	top: 77%;
+}
+
+#arrpN{
+	position: absolute;
+	width: 20%;
+	height: 3%;
+	left: 3%;
+	top: 87%;
+	font-size: 60%;
+}
+
+#arrpNLabel{
+	position: absolute;
+	left: 3%;
+	top: 85%;
+	font-size: 40%;
+}
+
+#btnGroupCont{
+	position: absolute;
+	top: 23%;
+	left: 35%;
+	width: 40%;
+	background-color: bisque;
+}
+
+#adlBtn{
+	position: absolute;
+	left:36%;
+	top: 50%;
+	width: 11%;
+	visibility: hidden;
+}
+
+#AMBtn{
+	position: absolute;
+	left:36%;
+	visibility: hidden;
+}
+
+#searchForm{
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	left: 35%;
+	top: 45%;
+	background-color: #D46A6A;
+	visibility: hidden;
+}
+
+#searchFormAM{
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	left: 35%;
+	top: 45%;
+	background-color: #D46A6A;
+	visibility: hidden;
+}
+
+#searchF{
+	position: absolute;
+	width: 75%;
+	height: 19.5%;
+	left: 50%;
+	top: 45%;
+	left: 9%;
+}
+
+#searchBtn{
+	position: absolute;
+	left: 69%;
+	top: 45%;
+	height: 19.5%;
+	width: 20%;
+
+	background-color:  #6E1319;
+    font-size: 20px;
+    font-family: "Verdana", "Geneva", sans-serif;
+	color: white;
+	//border-radius: 1px;
+	border: 1px #6E1319;
+}
+
+#searchBtnAM{
+	position: absolute;
+	left: 69%;
+	top: 45%;
+	height: 19.5%;
+	width: 20%;
+	background-color:  #6E1319;
+    font-size: 20px;
+    font-family: "Verdana", "Geneva", sans-serif;
+	color: white;
+	border: 1px #6E1319;
+}
+
+#tickadge{
+	text-align: center;
+}
+
+#ticketContainer{
+	position: relative;
+	background-color: #FF4136;
+	width: 70%;
+	height: 20%;
+	left: 0;
+	right: 0;
+}
+
+
+#separator{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	left: 0;
+	height: 3%;
+	background-color: red;
+}
+
+#ticketInfo{
+	position: relative;
+	width: 70%;
+	height: 120%;
+	background-color: gainsboro;
+	left: 15%;
+	border-bottom: 10px solid bisque;
+}
+
+#ticketNumber{
+	position: absolute;
+	left: 45%;
+	bottom: 62%;
+	font-family: "Times New Roman", serif;
+}
+
+#ticketDestination{
+	position: relative;
+	text-align: center;
+	top: 35%;
+}
+
+#ticketDate{
+	position: relative;
+	text-align: center;
+	top: 17%;
+}
+
+#passInf{
+	position: relative;
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+	left: 45%;
+}
+
+#seventh{
+	position: relative;
+	left: 0%;
+	width: 100%;
+	color: darkgray;
+}
+
+#ticketFN{
+	position: relative;
+	left: 2%;
+	font-family: "Verdana", serif;
+	color: black;
+}
+
+#ticketDB{
+	position: relative;
+	left: 2%;
+	font-family: serif;
+    text-indent: inherit;
+    //color: #be5b70;
+    color: #801515;
+}
+
+#ticketPN{
+	position: relative;
+	left: 2%;
+	//font-family: "Times New Roman", serif;
+	font-family: serif;
+    text-indent: inherit;
+    color: #801515;
+}
+
+#ticketEM{
+	position: relative;
+	left: 2%;
+	//font-family: "Times New Roman", serif;
+	font-family: serif;
+    text-indent: inherit;
+    color: #801515;
+}
+
+#ticketLugg{
+	position: relative;
+	left: 2%;
+	//font-family: "Times New Roman", serif;
+	font-family: serif;
+    text-indent: inherit;
+    color: #801515;
+}
+
+#ticketSeats{
+	position: relative;
+	left: 2%;
+	//font-family: "Times New Roman", serif;
+	font-family: serif;
+    text-indent: inherit;
+    color: #801515;
+}
+
+#ticketTP{
+	position: absolute;
+	//left: 45%;
+	text-align: center;
+	//font-family: "Times New Roman", serif;
+	font-family: serif;
+    text-indent: inherit;
+    color: #801515;
+}
+
+#totPrs{
+	color: black;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#pTN{
+	text-align: center;
+	font-family: "Times New Roman", serif;
+}
+
+#tN{
+	text-align: center;
+	font-family: "Times New Roman", serif;
+	color: firebrick;
+}
+
+
+#flCont{
+	position: relative;
+	top: 10%;
+	left: 0;
+	right: 0;
+	width: 65%;
+	height: 7%;
+	background-color: #FF4136;
+	//background-color: #A3616D;
+	//background-color: #AF1119;
+}
+
+#outInfo{
+	font-size: 20px;
+	font-family: "Verdana", cursive;
+}
+
+#destLabel{
+	font-size: 16px;
+	font-family: "Verdana", cursive;
+	//text-decoration: underline;
+	color: #801515
+}
+
+#dateInfo{
+	position: relative;
+	left: 25%;
+	font-size: 16px;
+	font-family: "Verdana", cursive;
+	//text-decoration: underline;
+	color: #801515
+}
+
+.Panel_template{
+	position: absolute;
+	top: 10%;
+	height: 100%;
+}
+
+#fullFlightInfo{
+	position: relative;
+	top: 10%;
+	//left: 0;
+	width: 65%;
+	height: 40%;
+	background-color: gray;
+}
+
+.col{
+	display: inline-block;
+}
+
+#f{
+	position: absolute;
+	background-color: #DDDDDD;
+	//background-color: #96797B;
+	//background-color: #A99394;
+	//background-color: #D67687;
+	width: 25%;
+	top:1%;
+	height: 400%;
+	//height: 100%;
+	//bottom: 0;
+	left: 0;
+	//text-align: center;
+}
+
+#a1{
+   position: relative;
+   left: 1%;
+   font-family: serif;
+   text-indent: inherit;
+   //color: #2F4F4F;
+   color: #be5b70;
+}
+
+#a2{
+	position: relative;
+	font-family: "Verdana", cursive;
+	//font-size: 20px
+	//left: 5%;
+	text-align: center;
+	color: black;
+}
+
+#a3{
+	position: relative;
+	//left: 5%;
+	text-align: center;
+	color: black;
+}
+
+#a4{
+	position: relative;
+	left: 1%;
+	font-family: serif;
+    text-indent: inherit;
+    //color: #2F4F4F;
+    color: #be5b70;
+}
+
+#a4_1{
+	position: relative;
+	color: black;
+}
+
+
+#s{
+	position: absolute;
+	//background-color: green;
+	background-color: #DDDDDD;
+	width: 25%;
+	top:1%;
+	height: 400%;
+	//height: 100%;
+	//bottom: 0;
+	left: 25%;
+	//text-align: center;
+}
+
+#b1{
+	position: relative;
+    left: 1%;
+    font-family: serif;
+    text-indent: inherit;
+    color: #be5b70;
+}
+
+#b2{
+    position: relative;
+	font-family: "Verdana", cursive;
+	//font-size: 20px
+	//left: 5%;
+	text-align: center;
+	color: black;
+}
+
+#b3{
+	position: relative;
+	//left: 5%;
+	text-align: center;
+	color: black;
+}
+
+
+#t{
+	position: absolute;
+	background-color: #DDDDDD;
+	width: 26%;
+	top:0.5%;
+	height: 400%;
+	//height: 100%;
+	//bottom: 0;
+	left: 49%;
+	//text-align: center;
+}
+
+#c1{
+	position: relative;
+    left: 1%;
+    font-family: serif;
+    text-indent: inherit;
+    color: #be5b70;
+}
+
+#c2{
+	position: relative;
+	//left: 5%;
+	text-align: center;
+	color: black;
+}
+
+#four{
+	position: absolute;
+	background-color: #DDDDDD;
+	width: 25%;
+	top:1%;
+	height: 400%;
+	//height: 100%;
+	//bottom: 0;
+	left: 75%;
+	//text-align: center;
+}
+
+#d1{
+    position: relative;
+    left: 1%;
+    font-family: serif;
+    text-indent: inherit;
+    color: #be5b70;
+}
+
+#d2{
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+#tranSelectionAlone{
+	position: relative;
+	border: 3px solid #f1f1f1;
+	background-color: navajowhite;
+	//width: 28%;
+	width: 20%;
+	height: 24%;
+	left: 79%;
+	top: 10;
+}
+
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+#collapse{
+	position: absolute;
+	top:5%;
+	left: 6%;
+}
+
+#colapseBtn{
+	background-color: blue;
+	width: 130%;
+	//transform: rotate(344deg);
+}
+
+#callMess{
+	position: relative;
+	//left: 55%;
+	left: 18%;
+	font-family: "Ek Mukta";
+	font-size: 20px;
+	text-align: center;
+	color: #FCDFFF;
+}
+
+#bookTkt{
+	position: absolute;
+	left: 50%;
+	width: 85px;
+	//background-color: #3e3436;
+	//background-color: #FFAAAA;
+	background-color: #801515;
+	border: #801515;
+}
+
+#d2_1{
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-size:60px;
+}
+
+
+
+
